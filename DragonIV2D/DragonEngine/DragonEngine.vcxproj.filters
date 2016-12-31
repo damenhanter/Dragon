@@ -1,0 +1,270 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Math Library">
+      <UniqueIdentifier>{4fa40556-f89d-49ec-90ed-e5622b65e2e3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Math Library\Math Source">
+      <UniqueIdentifier>{bc476b58-488e-47de-9d50-4745a0f1febc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Math Library\Math Header">
+      <UniqueIdentifier>{6ada4648-61f5-49b5-9c32-6dca227c362f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="General">
+      <UniqueIdentifier>{afcae015-76aa-4c54-8c3b-5bd0517b587b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="General\General Header">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="General\General Source">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Rendering">
+      <UniqueIdentifier>{f5ebc066-fcdb-4774-997c-d541d555f646}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Rendering\Rendering Header">
+      <UniqueIdentifier>{89b774a5-89ad-4e2a-a99b-176ae15fd30b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Rendering\Rendering Source">
+      <UniqueIdentifier>{9cb83d9e-f6b2-4df9-bb5c-162a31d5865c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+    <Filter Include="DA Audio">
+      <UniqueIdentifier>{1379ee53-bf98-404a-b38a-e70db1b3ef41}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DA Audio\Audio Header">
+      <UniqueIdentifier>{8ea38fdb-2c3e-4922-b063-e97aeb67430b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DA Audio\Audio Source">
+      <UniqueIdentifier>{2306073b-3868-44ce-95ab-08d592d73e99}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DI Input">
+      <UniqueIdentifier>{96b3ddad-f710-4346-a9b8-81ecf7c75f2e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DI Input\DI Header">
+      <UniqueIdentifier>{e7952c13-6097-4fba-bca9-a3794bd05a62}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DI Input\DI Source">
+      <UniqueIdentifier>{e9f4bb43-1766-4a3b-9d24-33706cc759d5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Animation">
+      <UniqueIdentifier>{42fcbf76-724d-4144-9510-d35055a4937e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Animation\Animation Header">
+      <UniqueIdentifier>{9db6be9e-28bf-404e-ac2b-53453482b953}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Animation\Animation Source">
+      <UniqueIdentifier>{44d9ddf5-a742-4fde-8165-8b67f4d7a5fa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Physics">
+      <UniqueIdentifier>{533097b4-a43b-4208-bbb1-126d87ac3b9d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Physics\PS Header">
+      <UniqueIdentifier>{42471a23-3f9b-4a66-9e36-52c631cdb9a6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Physics\PS Source">
+      <UniqueIdentifier>{186af7a8-2c94-424e-8c08-010fdc907d61}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ErrorLog">
+      <UniqueIdentifier>{772ec631-3078-4171-b1f0-b7d621189e16}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ErrorLog\ErrorLog Header">
+      <UniqueIdentifier>{86c5ca37-15ec-477a-9c5a-bf59c1353d2e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ErrorLog\ErrorLog Source">
+      <UniqueIdentifier>{b2708458-32ec-4ebb-9e70-1bb2d0ca8788}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="BoundBox.cpp">
+      <Filter>Math Library\Math Source</Filter>
+    </ClCompile>
+    <ClCompile Include="BoundSphere.cpp">
+      <Filter>Math Library\Math Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Line2D.cpp">
+      <Filter>Math Library\Math Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Matrix1x2.cpp">
+      <Filter>Math Library\Math Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Matrix1x3.cpp">
+      <Filter>Math Library\Math Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Matrix3x2.cpp">
+      <Filter>Math Library\Math Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Matrix3x3.cpp">
+      <Filter>Math Library\Math Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Matrix4x4.cpp">
+      <Filter>Math Library\Math Source</Filter>
+    </ClCompile>
+    <ClCompile Include="polygon2D.cpp">
+      <Filter>Math Library\Math Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Triangle2D.cpp">
+      <Filter>Math Library\Math Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Vector3.cpp">
+      <Filter>Math Library\Math Source</Filter>
+    </ClCompile>
+    <ClCompile Include="datatype.cpp">
+      <Filter>General\General Source</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>General\General Source</Filter>
+    </ClCompile>
+    <ClCompile Include="BitmapFile.cpp">
+      <Filter>Rendering\Rendering Source</Filter>
+    </ClCompile>
+    <ClCompile Include="BitmapImage.cpp">
+      <Filter>Rendering\Rendering Source</Filter>
+    </ClCompile>
+    <ClCompile Include="GUISystem.cpp">
+      <Filter>Rendering\Rendering Source</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderSystem.cpp">
+      <Filter>Rendering\Rendering Source</Filter>
+    </ClCompile>
+    <ClCompile Include="DMusic.cpp">
+      <Filter>DA Audio\Audio Source</Filter>
+    </ClCompile>
+    <ClCompile Include="DSound.cpp">
+      <Filter>DA Audio\Audio Source</Filter>
+    </ClCompile>
+    <ClCompile Include="InputSystem.cpp">
+      <Filter>DI Input\DI Source</Filter>
+    </ClCompile>
+    <ClCompile Include="JoyStick.cpp">
+      <Filter>DI Input\DI Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Keyboard.cpp">
+      <Filter>DI Input\DI Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Mouse.cpp">
+      <Filter>DI Input\DI Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Animation.cpp">
+      <Filter>Animation\Animation Source</Filter>
+    </ClCompile>
+    <ClCompile Include="ParticleSystem.cpp">
+      <Filter>Physics\PS Source</Filter>
+    </ClCompile>
+    <ClCompile Include="ErrorLog.cpp">
+      <Filter>ErrorLog\ErrorLog Source</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="BoundBox.h">
+      <Filter>Math Library\Math Header</Filter>
+    </ClInclude>
+    <ClInclude Include="BoundSphere.h">
+      <Filter>Math Library\Math Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Line2D.h">
+      <Filter>Math Library\Math Header</Filter>
+    </ClInclude>
+    <ClInclude Include="math.h">
+      <Filter>Math Library\Math Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Matrix1x2.h">
+      <Filter>Math Library\Math Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Matrix1x3.h">
+      <Filter>Math Library\Math Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Matrix3x2.h">
+      <Filter>Math Library\Math Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Matrix3x3.h">
+      <Filter>Math Library\Math Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Matrix4x4.h">
+      <Filter>Math Library\Math Header</Filter>
+    </ClInclude>
+    <ClInclude Include="polygon2D.h">
+      <Filter>Math Library\Math Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Triangle2D.h">
+      <Filter>Math Library\Math Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector3.h">
+      <Filter>Math Library\Math Header</Filter>
+    </ClInclude>
+    <ClInclude Include="datatype.h">
+      <Filter>General\General Header</Filter>
+    </ClInclude>
+    <ClInclude Include="engine.h">
+      <Filter>General\General Header</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>General\General Header</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>General\General Header</Filter>
+    </ClInclude>
+    <ClInclude Include="BitmapFile.h">
+      <Filter>Rendering\Rendering Header</Filter>
+    </ClInclude>
+    <ClInclude Include="BitmapImage.h">
+      <Filter>Rendering\Rendering Header</Filter>
+    </ClInclude>
+    <ClInclude Include="GUISystem.h">
+      <Filter>Rendering\Rendering Header</Filter>
+    </ClInclude>
+    <ClInclude Include="render.h">
+      <Filter>Rendering\Rendering Header</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderSystem.h">
+      <Filter>Rendering\Rendering Header</Filter>
+    </ClInclude>
+    <ClInclude Include="audio.h">
+      <Filter>DA Audio\Audio Header</Filter>
+    </ClInclude>
+    <ClInclude Include="DMusic.h">
+      <Filter>DA Audio\Audio Header</Filter>
+    </ClInclude>
+    <ClInclude Include="DSound.h">
+      <Filter>DA Audio\Audio Header</Filter>
+    </ClInclude>
+    <ClInclude Include="input.h">
+      <Filter>DI Input\DI Header</Filter>
+    </ClInclude>
+    <ClInclude Include="InputSystem.h">
+      <Filter>DI Input\DI Header</Filter>
+    </ClInclude>
+    <ClInclude Include="JoyStick.h">
+      <Filter>DI Input\DI Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Keyboard.h">
+      <Filter>DI Input\DI Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Mouse.h">
+      <Filter>DI Input\DI Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Anim.h">
+      <Filter>Animation\Animation Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Animation.h">
+      <Filter>Animation\Animation Header</Filter>
+    </ClInclude>
+    <ClInclude Include="ParticleSystem.h">
+      <Filter>Physics\PS Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Physics.h">
+      <Filter>Physics\PS Header</Filter>
+    </ClInclude>
+    <ClInclude Include="ErrorLog.h">
+      <Filter>ErrorLog\ErrorLog Header</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+</Project>
